@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .contact-info {
+            max-width: 600px;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .contact-info h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .contact-info p {
+            margin: 10px 0;
+        }
+        .contact-info a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        .contact-form {
+            margin-top: 20px;
+        }
+        .contact-form label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+<div class="contact-info">
+    <h2>Contact Us</h2>
+    <p><strong>Address:</strong></p>
+    <p>Crowthorn St, Midrand, 1685</p>
+
+    <p><strong>Phone:</strong></p>
+    <p>0827440098</p>
+
+    <p><strong>Email:</strong></p>
+    <p><a href="mailto:info@healthylives.com">info@healthylives.com</a></p>
+
+    <p><strong>Business Hours:</strong></p>
+    <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
+    <p>Saturday: 10:00 AM - 4:00 PM</p>
+    <p>Sunday: Closed</p>
+
+    <p><strong>Follow Us:</strong></p>
+    <p><a href="https://www.facebook.com/healthylives">Facebook</a></p>
+    <p><a href="https://www.twitter.com/healthylives">Twitter</a></p>
+    <p><a href="https://www.instagram.com/healthylives">Instagram</a></p>
+    <p><a href="https://www.linkedin.com/company/healthylives">LinkedIn</a></p>
+
+    <div class="contact-form">
+        <h3>Contact Form</h3>
+        <form action="your_form_handler_url" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</div>
+<button onclick="window.history.back()">Go Back</button>
+</body>
+</body>
+</html>
